@@ -6,5 +6,5 @@ var server = app.listen(12345, function(){
 });
 
 app.get("/", function(req, res, next){
-    res.end("Hello from Node, Let's enjoy studying!");
+    res.end("Hello from Node.js Container, Let's enjoy studying!");
 });

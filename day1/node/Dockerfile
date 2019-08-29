@@ -1,6 +1,5 @@
 FROM node:10
 
-#移動
 WORKDIR /usr/src/app
 
 COPY package*.json ./
