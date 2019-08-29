@@ -1,5 +1,5 @@
 var redis = require('redis');
-var redis_client = redis.create(6379, "app-redis");
+var redis_client = redis.createClient(6379, "app-redis");
 
 require('http').createServer(function(req, res){
     redis_client.incr('counter', function(err, count){
